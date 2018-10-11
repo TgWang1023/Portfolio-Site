@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#intro-container {
+    background: linear-gradient(to bottom right, #cce6ff, #e6ffff);
+}
+
+    #welcome {
+        text-align: center;
+    }
+
+        .bio-content {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #bio-para {
+            font-size: 135%;
+        }
+
+        
