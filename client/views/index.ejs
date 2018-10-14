@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -15,10 +16,10 @@
     <body>
         <img src="img/Cover.jpg" class="img-fluid" alt="tabletop">
         <div class="fluid-container p-4" id="intro-container">
-            <h1 id="welcome">Hello!</h1>
+            <h1 class="large-title">Hello!</h1>
             <div class="fluid-container p-4">
-                <img class="col-sm-3 bio-content" src="img/my_pic.jpg" alt="my_pic" class="w-25">
-                <p class="ml-5 mr-5 col-sm-8 bio-content" id="bio-para">
+                <img class="col-3 bio-content" src="img/my_pic.jpg" alt="my_pic" id="my-pic">
+                <p class="ml-5 mr-5 col-8 bio-content" id="bio-para">
                     Welcome to my website! I am a UCSB computer science student who loves to code. 
                     I am quite enthusiastic about anything technology related and have made quite a lot
                     of web apps and mobile apps whether for the goal to better our community or simply 
@@ -34,7 +35,49 @@
                     to catch up on the latest tech. I hope I can apply my skills to the real world 
                     and be a part of something great.
                 </p>
-            </div>       
+            </div>   
+            <h1 class="large-title">My Skills</h1>   
+            <div class="container" id="skills-container">
+                <div class="row">
+                    <img class="col-4 skill-image" src="img/html_css_js.png" alt="big3">
+                    <img class="col-5 skill-image" src="img/python.png" alt="python">
+                    <img class="col-3 skill-image" src="img/node.png" alt="node">
+                </div>
+                <div class="row mt-3">
+                    <img class="col-3 skill-image" src="img/flask.png" alt="flask">
+                    <img class="col-3 skill-image" src="img/jquery.gif" alt="jquery">
+                    <img class="col-3 skill-image" src="img/sqlite.png" alt="sqlite">
+                    <img class="col-3 skill-image" src="img/git.png" alt="git">
+                </div>
+                <div class="row mt-3">
+                    <img class="col-6 skill-image" src="img/mysql.png" alt="mysql">
+                    <img class="col-2 skill-image" src="img/mongo.png" alt="mongo">
+                    <img class="col-4 skill-image" src="img/bootstrap.png" alt="bootstrap">
+                </div>
+                <div class="row mt-3">
+                    <img class="col-3 skill-image" src="img/java.png" alt="java">
+                    <img class="col-6 skill-image" src="img/django.png" alt="django">
+                    <img class="col-3 skill-image" src="img/express.png" alt="express">
+                </div>
+                <div class="row mt-3">
+                    <div class="col-1"></div>
+                    <img class="col-3 skill-image" src="img/mongoose.png" alt="mongoose">
+                    <img class="col-3 skill-image" src="img/angular.png" alt="angular">
+                    <img class="col-3 skill-image" src="img/socket.png" alt="socket">
+                    <img class="col-2 skill-image" src="img/react.png" alt="react">
+                </div>
+                <div class="row mt-3">
+                    <img class="col-4 skill-image" src="img/xcode.png" alt="xcode">
+                    <img class="col-4 skill-image" src="img/swift.png" alt="swift">
+                    <img class="col-4 skill-image" src="img/spritekit.png" alt="spritekit">
+                </div>
+                <div class="row mt-3">
+                    <img class="col-3 skill-image" src="img/typescript.png" alt="typescript">
+                    <img class="col-3 skill-image" src="img/c++.png" alt="c++">
+                    <img class="col-3 skill-image" src="img/aws.png" alt="aws">
+                    <img class="col-3 skill-image" src="img/postman.png" alt="postman">
+                </div>
+            </div> 
         </div>
     </body>
 </html>

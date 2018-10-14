@@ -1,23 +1,33 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 #intro-container {
-    background: linear-gradient(to bottom right, #cce6ff, #e6ffff);
+    background: linear-gradient(to bottom, #ffffff, #3366cc);
 }
 
-    #welcome {
+    .large-title {
         text-align: center;
     }
 
         .bio-content {
             display: inline-block;
-            vertical-align: top;
+            vertical-align: middle;
         }
 
         #bio-para {
             font-size: 135%;
         }
+
+.row {
+    max-height: 150px;
+}
+
+    .skill-image {
+        display: inline-block;
+        object-fit: contain;
+    }
 
         
