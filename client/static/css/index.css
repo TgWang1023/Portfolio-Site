@@ -1,11 +1,11 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Chakra Petch', sans-serif;
 }
 
 #intro-container {
-    background: linear-gradient(to bottom, #ffffff, #3366cc);
+    background: linear-gradient(to bottom, #ffffff, #99bbff);
 }
 
     .large-title {
@@ -29,6 +29,16 @@
     .skill-image {
         display: inline-block;
         object-fit: contain;
+    }
+
+#footer {
+    background-image: url("../img/footer.jpg");
+    height: 575px;
+    width: 100%;
+}
+
+    #contact-group {
+        text-align: center;
     }
 
         
