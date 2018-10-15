@@ -32,13 +32,27 @@
     }
 
 #footer {
+    position: relative;
     background-image: url("../img/footer.jpg");
-    height: 575px;
+    height: 595px;
     width: 100%;
 }
 
-    #contact-group {
-        text-align: center;
+    .contact-element {
+        display: inline;
+        margin-left: 2%   
+    }
+
+    .contact-element:first-child {
+        margin-left: 0;
+    }
+
+    #copyright {
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        right: 0;
+        color: white;
     }
 
         
