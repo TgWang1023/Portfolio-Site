@@ -55,4 +55,13 @@
         color: white;
     }
 
+.carousel {
+    margin: 0 auto;
+}
+
+    .carousel-inner img {
+        margin: auto;
+    }
+
+
         

@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
+    $("#contact-info").hide();
+
     $("#github").mousemove(function() {
+        $("#contact-info").show();
         $("#contact-info").text("ID: TgWang1023");
         $(this).css("border", "2px solid white");
     });
@@ -13,6 +16,7 @@ $(document).ready(function() {
     });
 
     $("#linkedin").mousemove(function() {
+        $("#contact-info").show();
         $("#contact-info").text("Profile URL: https://www.linkedin.com/in/tiangewang/");
         $(this).css("border", "2px solid white");
     });
@@ -24,6 +28,7 @@ $(document).ready(function() {
     });
 
     $("#email").mousemove(function() {
+        $("#contact-info").show();
         $("#contact-info").text("Email: wtgkevin@gmail.com");
         $(this).css("border", "2px solid white");
     });
@@ -35,6 +40,7 @@ $(document).ready(function() {
     });
 
     $("#phone").mousemove(function() {
+        $("#contact-info").show();
         $("#contact-info").text("Phone #: (650)224-5288");
         $(this).css("border", "2px solid white");
     });
@@ -43,6 +49,7 @@ $(document).ready(function() {
     });
 
     $("#hangout").mousemove(function() {
+        $("#contact-info").show();
         $("#contact-info").text("Hangout Email: wtgkevin@gmail.com");
         $(this).css("border", "2px solid white");
     });
@@ -51,6 +58,7 @@ $(document).ready(function() {
     });
 
     $("#skype").mousemove(function() {
+        $("#contact-info").show();
         $("#contact-info").text("ID: live:wtg005");
         $(this).css("border", "2px solid white");
     });
