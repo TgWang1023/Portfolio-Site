@@ -18,7 +18,7 @@ module.exports = function(app){
         response.render('simdu');
     });
     app.get('/crazy_maze', function(request, response){
-        response.render('/crzma');
+        response.render('crzma');
     });
     app.get('*', function(request, response){
         response.redirect('/');
