@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#main-container {
+    background: linear-gradient(to bottom, #ffffff, #5765e0);
+}
+
+    .large-title {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #main-para li{
+        display: list-item;
+        vertical-align: middle;
+        font-size: 135%;
+        list-style-type: circle;
+    }
+
+    .work-imgs {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#footer {
+    position: relative;
+    background-image: url("../img/footer.jpg");
+    height: 595px;
+    width: 100%;
+}
+
+    .contact-element {
+        display: inline;
+        margin-left: 2%   
+    }
+
+    .contact-element:first-child {
+        margin-left: 0;
+    }
+
+    #copyright {
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        right: 0;
+        color: white;
+    }
