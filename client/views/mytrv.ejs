@@ -5,8 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tiange Wang</title>
+    <link rel="stylesheet" href="css/mytrv.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <h1>My Travel</h1>
+    <img src="img/mt_cover.jpg"  class="img-fluid" alt="mt_cover">
+    <div class="fluid-container p-4" id="main-container">
+        <a href="https://github.com/kammeron/myTravel" class="btn btn-primary">Check it out!</a>
+        <a href="/" class="btn btn-success float-right">Home</a> 
+        <h1 class="large-title">My Travel</h1>
+        <div class="fluid-container p-4">
+            <ul class="ml-5 mr-5" id="main-para">
+                <li>Built a travel helper app with a trip planning list with direction guidance and a explore feature that reveals the nearest hotspots around the user. </li>
+                <li>Contributed to the project by implementing partial structure of the app, implementing the planning list with CoreData and UIMapKit, and designing the storyboard artwork.</li>
+                <li>Utilized technologies include swift and Yelp API.</li>
+            </ul>
+        </div>
+        <div class="row img-wrapper">
+            <img class="d-block col-4 work-imgs mt-3" src="img/work_imgs/mt5.png" alt="mt5">  
+            <img class="d-block col-4 work-imgs mt-3" src="img/work_imgs/mt1.png" alt="mt1"> 
+            <img class="d-block col-4 work-imgs mt-3" src="img/work_imgs/mt2.png" alt="mt2">   
+        </div>
+        <div class="row img-wrapper mt-3">
+            <img class="d-block col-4 work-imgs mt-3" src="img/work_imgs/mt3.png" alt="mt3">  
+            <img class="d-block col-4 work-imgs mt-3" src="img/work_imgs/mt4.png" alt="mt4"> 
+            <img class="d-block col-4 work-imgs mt-3" src="img/work_imgs/mt_main.png" alt="mt_main">
+        </div>
+    </div>
+    <div id="footer" class="large-title pt-4">
+        <h1 class="large-title" id="footer-title">My Contacts</h1>
+        <ul class="mt-4">
+            <li class="contact-element"><button id="github" style="background: url('img/github_icon.png'); width: 102px; height: 102px; border-radius: 20%"/></li>
+            <li class="contact-element"><button id="linkedin" style="background: url('img/linkedin_icon.png'); width: 102px; height: 102px; border-radius: 20%"/></li>
+            <li class="contact-element"><button id="email" style="background: url('img/email_icon.png'); width: 102px; height: 102px; border-radius: 20%"/></li>
+            <li class="contact-element"><button id="phone" style="background: url('img/phone_icon.png'); width: 102px; height: 102px; border-radius: 20%"/></li>
+            <li class="contact-element"><button id="hangout" style="background: url('img/hangout_icon.png'); width: 102px; height: 102px; border-radius: 20%"/></li>
+            <li class="contact-element"><button id="skype" style="background: url('img/skype_icon.png'); width: 102px; height: 102px; border-radius: 20%"/></li>
+        </ul>
+        <h4 id="contact-info">ID: TgWang1023</h4>
+        <h5 id="copyright">© 2018 Tiange Wang. All rights reserved.</h5>
+    </div>
 </body>
 </html>
