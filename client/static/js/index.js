@@ -59,7 +59,7 @@ $(document).ready(function() {
 
     $("#skype").mousemove(function() {
         $("#contact-info").show();
-        $("#contact-info").text("ID: live:wtg005");
+        $("#contact-info").text("ID: live:wtgkevin");
         $(this).css("border", "2px solid white");
     });
     $("#skype").mouseleave(function() {
