@@ -1,8 +1,9 @@
 #footer {
     position: relative;
     background-image: url("../img/footer.jpg");
-    height: 595px;
+    height: 590px;
     width: 100%;
+    background-repeat:no-repeat;
 }
 
     .contact-element {
